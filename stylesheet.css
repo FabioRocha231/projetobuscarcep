@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 110, 255, 0.6), rgba(0, 110, 255, 0.9));
+    display: grid;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+    height: 130px;
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+    padding-top: 20px;
+    color: #232f3e;
+}
+
+.quadro {
+    background-image: linear-gradient(to bottom right, rgba(165, 223, 250, 0.9) , rgba(165, 223, 250, 0.7));
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 1000px;
+    height: 570px;
+    margin: 35px;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.7) , rgba(255, 255, 255, 0.5));
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 20px;
+    height: 250px;
+    margin: 25px;
+    opacity: 0.9;
+}
+
+.secao{
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: #232f3e;
+}
+
+.numSecao {
+    background-color: #ff9900;
+    color: #232f3e;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 100%;
+}
+
+.inputs {
+    padding-top: 33px;
+    text-align: center;
+}
+
+.input {
+    width: 380px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.input:hover {
+    transform: translateY(-3px);
+    transition: 1s ease-in-out;
+}
+
+
+.buscarBt {
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: #232f3e;
+    margin: 3%;    
+}
+
+#botao_buscar {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #6ab4fa;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 600ms ease-in-out;
+}
+  
+#botao_buscar:hover {
+    transform: translateY(-3px);
+    transition: 600ms ease-in-out;
+    background: #4F95DA;
+}
+  
+#botao_buscar:hover svg {
+    stroke-dashoffset: -480;
+}
+  
+#botao_buscar span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#botao_limpar {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #6ab4fa;
+    outline: none;
+    transition: 600ms ease-in-out;
+}
+
+#botao_limpar:hover {
+    transform: translateY(-3px);
+    transition: 600ms ease-in-out;
+    background: #f59d9d;
+}
+  
+#botao_limpar:hover svg {
+    stroke-dashoffset: -480;
+}
+  
+#botao_limpar span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#botao_salvar {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #6ab4fa;
+    outline: none;
+    transition: 600ms ease-in-out;
+}
+
+#botao_salvar:hover {
+    transform: translateY(-3px);
+    transition: 600ms ease-in-out;
+    background: #9df5b0;
+}
+  
+#botao_salvar:hover svg {
+    stroke-dashoffset: -480;
+}
+  
+#botao_salvar span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.msgErro {
+    color: red;
+}
+
+.submeter{
+    text-align: center;
+    justify-content: center;
+}
